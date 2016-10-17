@@ -1,0 +1,6 @@
+alias start='npm run start'
+alias build='npm run build'
+alias test='npm run test'
+alias fire-deploy='firebase deploy'
+alias fire-dbget='firebase database:get'
+alias fireup='npm run fireup'
