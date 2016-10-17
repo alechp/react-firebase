@@ -19,7 +19,7 @@ npm run test
 
 3. Deploy
 ```
-nano 
+nano .firebaserc -> add your firebase project name here
 npm run fireup
 ```
 
