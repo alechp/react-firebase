@@ -1,5 +1,5 @@
 {
-  "name": "kisoro",
+  "name": "react-firebase",
   "version": "0.1.0",
   "private": true,
   "devDependencies": {
@@ -67,7 +67,7 @@
     "fire-dbget": "firebase database:get",
     "fireup": "npm run build && npm run fire-deploy"
   },
-  "homepage": "https://kisoroco.firebaseapp.com",
+  "homepage": "https://your-project-name-here.firebaseapp.com",
   "jest": {
     "moduleFileExtensions": [
       "jsx",

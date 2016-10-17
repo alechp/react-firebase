@@ -1,4 +1,7 @@
-<h1>Kisoro Shop</h1>
+<h1>React Firebase</h1>
+I was playing with create-react-app and firebase this weekend. 
+Realized that there are some configuration issues which I wouldn't to iron out.
+This is a starting point for future react-firebase apps for myself. Feel free to use/fork.
 
 <h2>Getting Started</h2>
 
@@ -19,6 +22,7 @@ npm run test
 
 3. Deploy
 ```
+nano package.json -> replace "homepage" with your project name
 nano .firebaserc -> add your firebase project name here
 npm run fireup
 ```
