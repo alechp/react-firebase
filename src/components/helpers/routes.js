@@ -1,5 +1,5 @@
 import React from 'react';
-import App from '../components/App';
+import App from '../App';
 
 import { Router, Route, hashHistory } from 'react-router';
 

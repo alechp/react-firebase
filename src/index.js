@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './components/App';
+import routes from './components/helpers/routes';
 
 ReactDOM.render(
-  <App greeting="World" />,
+  routes,
   document.getElementById('root')
 );
