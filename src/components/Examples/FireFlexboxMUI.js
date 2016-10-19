@@ -1,6 +1,5 @@
 //GEneral
 import React, { Component } from 'react';
-import CSSModules from 'react-css-modules';
 import { Grid, Row, Col } from 'react-flexbox-grid';
 import firebase from '../helpers/firebase';
 
@@ -46,11 +45,11 @@ class FireFlexboxMUI extends Component {
         <Grid>
           <Row>
             <Col xs={6} md={6} lg={4}>
-              <h1>{this.state.name}</h1>
               <AppBar
-                  title="Title"
+                  title="FireFlexboxMUI AppBar"
                   iconClassNameRight="muidocs-icon-navigation-expand-more"
                 />
+              <h1>{this.state.name}</h1>
             </Col>
             <Col xs={6} md={6} lg={4}>
               <h1>{this.state.price}</h1>
@@ -62,4 +61,5 @@ class FireFlexboxMUI extends Component {
   }
 }
 
-export default CSSModules(FireFlexboxMUI, styles);
+export default FireFlexboxMUI;
+// export default CSSModules(FireFlexboxMUI, styles);

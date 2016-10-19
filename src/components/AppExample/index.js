@@ -26,9 +26,21 @@ class App extends Component {
   render() {
     return (
       <div styleName="App">
-        <FireTest />
+        <h1 styleName="standout">FireFlexboxMUI Example</h1>
         <FireFlexboxMUI />
+        <hr />
 
+        <h1 styleName="standout">FireTest Example</h1>
+        <FireTest />
+        <hr />
+
+        <h1 styleName="standout">Flexbox Example</h1>
+        <Flexbox />
+        <hr />
+
+        <h1 styleName="standout">MUI Example</h1>
+        <MUI />
+        
       </div>
     );
   }

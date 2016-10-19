@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import AppBar from 'material-ui/AppBar';
+import {Card, CardActions, CardHeader, CardText} from 'material-ui/Card';
+import FlatButton from 'material-ui/FlatButton';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 
 class MUI extends Component { 
@@ -19,11 +20,24 @@ class MUI extends Component {
   render() { 
     return (
       <MuiThemeProvider>
-        <Appbar 
-          title="Material UI Example"
-          iconClassNameRight="muidocs-icon-navigation-expand-more"
-        />
+          <Card>
+            <CardHeader
+              title="Without Avatar"
+              subtitle="Subtitle"
+              actAsExpander={true}
+              showExpandableButton={true}
+            />
+            <CardActions>
+              <FlatButton label="Action1" />
+              <FlatButton label="Action2" />
+            </CardActions>
+            <CardText expandable={true}>
+              {this.state.status}
+            </CardText>
+          </Card>
       </MuiThemeProvider>
     );
   }
 }
+
+export default MUI;
