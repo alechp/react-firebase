@@ -5,10 +5,14 @@ Goal of this doc is to explain the journey from command line to interactive appl
 
 --------------
 
-<h2>Initializing a react-material library</h2>
-<h4>Oct 17th, 2016</h4>
-
-
+<h2>Implementing flexbox grid & Material UI</h2>
+1. Install react-flexbox-grid
+```
+├── UNMET PEER DEPENDENCY babel-polyfill@>=6.0.0
+├── UNMET PEER DEPENDENCY classnames@>=2.1.2
+├── UNMET PEER DEPENDENCY flexboxgrid@^6.3.0
+```
+2. 
 --------------
 
 
