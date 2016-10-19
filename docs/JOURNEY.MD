@@ -2,18 +2,7 @@
 
 Goal of this doc is to explain the journey from command line to interactive application.
 
-
---------------
-
-<h2>Implementing flexbox grid & Material UI</h2>
-1. Install react-flexbox-grid
-```
-├── UNMET PEER DEPENDENCY babel-polyfill@>=6.0.0
-├── UNMET PEER DEPENDENCY classnames@>=2.1.2
-├── UNMET PEER DEPENDENCY flexboxgrid@^6.3.0
-```
-2. 
---------------
+Below was part of my discovery / journey while moving from create-react-app to a firebase friendly, CSS-modules, sass-enabled fullstack boilerplate.
 
 
 <h2>Updating react components</h2>
