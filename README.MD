@@ -3,6 +3,23 @@ I was playing with create-react-app and firebase this weekend.
 Realized that there are some configuration issues which I wouldn't to iron out.
 This is a starting point for future react-firebase apps for myself. Feel free to use/fork.
 
+
+-------------
+<h2>Firebase</h2>
+Why use?
+
+<h4>Pros</h4>
+* Free SSL included (i.e. imagine integrated [Let's Encrypt](https://goo.gl/WY8sZT))
+* Easy custom domain management (i.e. imagine easy [Route53](https://goo.gl/klcGZq))
+* Integrated OAuth management (i.e. imagine a slim version of [Auth0](https://goo.gl/4S7WYp))
+* Easy host deployment (i.e. imagine [surge.sh](https://goo.gl/s0dK7T) with more robust environment)
+* Easy state management (i.e. imagine a highly-restrictive [Relay](https://goo.gl/r54eBC) framework)  
+
+<h4>Cons</h4>
+* Their database GUI is clunky IMO
+* JSON Tree requires limited nesting because of recursive queryies
+
+-------------
 <h2>Getting Started</h2>
 
 To avoid typing `npm run` repeatedly, check out [ALIAS](docs/ALIAS.MD)
