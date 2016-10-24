@@ -1,19 +1,26 @@
 <h1>Roadmap</h1>
 
-* `Why is this file named .todo?`
-Using [this To Do Tasks](https://goo.gl/3gDyTh) extension for VSCode.
+Why is this file named .todo? -- Using [this To Do Tasks](https://goo.gl/3gDyTh) extension for VSCode.
+What is the goal for this project? -- Provide a starting point for React apps. Simple.
 
-* `What is the goal for this project?`
-Provide a starting point for React apps. Simple.
+------------------
 
 Tasks:
   Integration:
-    ☐ Add Bigtable integration component
+    ☐ Add Bigtable example component
+    ☐ Cloud Datastore example component
+    ☐ Add Firebase authentication example
 
   Architecture:
-    ☐ Add easy deployment module
-    ☐ Add Dockerfile for React
-    ☐ Add mock nodejs server with Dockerfile
-  
+    ☐ Add App Engine deployment example
+    ☐ Add Docker
+      ☐ Create Dockerfile for react-firebase project
+      ☐ Add Docker aliases for deploying to GCR
+      ☐ Add mock nodejs server with Dockerfile
+
   Testing:
     ☐ Investigate [using Jest with Enzyme](https://goo.gl/nrDPk2) and decide
+
+  Documentation:
+    ☐ Add deep-dive on stack
+    ☐ VSCode & Extensions list
