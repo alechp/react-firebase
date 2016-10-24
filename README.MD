@@ -19,7 +19,7 @@ Why use?
 <h4>Cons</h4>
 * Extreme vendor lock-in
 * Their database GUI is clunky IMO
-* JSON Tree requires limited nesting because of recursive queryies
+* JSON Tree utilize recursive queries. As a result, you're limited from nesting data. They allow 32 levels, but strongly advise keeping data shallow.
 
 -------------
 <h2>Getting Started</h2>
