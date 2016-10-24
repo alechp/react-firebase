@@ -13,9 +13,11 @@ Why use?
 * Easy custom domain management (i.e. imagine easy [Route53](https://goo.gl/klcGZq))
 * Integrated OAuth management (i.e. imagine a slim version of [Auth0](https://goo.gl/4S7WYp))
 * Easy host deployment (i.e. imagine [surge.sh](https://goo.gl/s0dK7T) with more robust environment)
-* Easy state management (i.e. imagine a highly-restrictive [Relay](https://goo.gl/r54eBC) framework)  
+* Easy state management (i.e. imagine a highly-restrictive [Relay](https://goo.gl/r54eBC) framework)
+* Inexpensive  
 
 <h4>Cons</h4>
+* Extreme vendor lock-in
 * Their database GUI is clunky IMO
 * JSON Tree requires limited nesting because of recursive queryies
 
