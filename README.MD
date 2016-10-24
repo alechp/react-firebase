@@ -3,9 +3,15 @@ I was playing with create-react-app and firebase this weekend.
 Realized that there are some configuration issues which I wouldn't to iron out.
 This is a starting point for future react-firebase apps for myself. Feel free to use/fork.
 
+<h4>Table of Contents</h4>
+* [Firebase](#Firebase)
+* [Getting Started](#GettingStarted)
+* [Docs](#Docs)
+* [Stack](#Stack)
+
 
 -------------
-<h2>Firebase</h2>
+<h2 id="Firebase">Firebase</h2>
 Why use?
 
 <h4>Pros</h4>
@@ -23,7 +29,7 @@ Why use?
 * JSON Tree utilize recursive queries. As a result, you're limited from nesting data. They allow 32 levels, but strongly advise keeping data shallow.
 
 -------------
-<h2>Getting Started</h2>
+<h2 id="GettingStarted">Getting Started</h2>
 
 To avoid typing `npm run` repeatedly, check out [ALIAS](docs/ALIAS.MD)
 
@@ -49,7 +55,7 @@ npm run fireup
 
 ----------
 
-<h2>Docs</h2>
+<h2 id="Docs">Docs</h2>
 
 <h4>Active</h4>
 | Name | Description | 
@@ -66,7 +72,7 @@ npm run fireup
 
 -------------
 
-<h2>Stack</h2>
+<h2 id="Stack">Stack</h2>
 * View => React 
 * BaaS => Firebase 
 * Display => [CSS Modules, Flexbox & SASS]
