@@ -10,6 +10,7 @@ Tasks:
     ☐ Add Bigtable example component
     ☐ Cloud Datastore example component
     ☐ Add Firebase authentication example
+    ☐ Add Flowtype dependency
 
   Architecture:
     ☐ Add App Engine deployment example
