@@ -7,8 +7,8 @@ What is the goal for this project? -- Provide a starting point for React apps. S
 
 Tasks:
   Integration:
-    ☐ Add Bigtable example component
     ☐ Cloud Datastore example component
+    ☐ SQL example component
     ☐ Add Firebase authentication example
 
   Architecture:
