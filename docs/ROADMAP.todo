@@ -10,6 +10,7 @@ Tasks:
     ☐ Cloud Datastore example component
     ☐ SQL example component
     ☐ Add Firebase authentication example
+    ☐ Add Flowtype dependency
 
   Architecture:
     ☐ Add App Engine deployment example
